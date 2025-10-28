@@ -49,4 +49,4 @@ This project was built using native Android development with Java.
 
 * **/source**: Contains all the Java source code and XML layout files.
 * **personal-budget-manager.apk**: The installable application file.
-* **User-Manual.pdf**: The detailed user guide for the application (in Traditional Chinese).
+* **User-Manual.pdf**: The detailed user guide for the application.
