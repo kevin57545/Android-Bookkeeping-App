@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/accountListLvItemTitlePadding"
+        android:background="#FFFFFF"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#E8DFCA"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:padding="@dimen/accountListLvItemTitlePadding">
+
+            <TextView
+                android:id="@+id/accountListLv_moneyType"
+                android:layout_width="@dimen/accountListLvItemTitleWidthZero"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/accountListLvItemStartEndPadding"
+                android:layout_weight="3"
+                android:gravity="start"
+                android:paddingHorizontal="@dimen/accountListLvItemPadding"
+                android:text="@string/accountList_listview_defaultTypeText"
+                android:textColor="@color/accountListLvItem_titleTextColor"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/accountListLv_date"
+                android:layout_width="@dimen/accountListLvItemTitleWidthZero"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:gravity="start"
+                android:paddingHorizontal="@dimen/accountListLvItemPadding"
+                android:text="@string/accountList_listview_defaultDateText"
+                android:textColor="@color/accountListLvItem_titleTextColor"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/accountListLv_money"
+                android:layout_width="@dimen/accountListLvItemTitleWidthZero"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/accountListLvItemStartEndPadding"
+                android:layout_weight="3"
+                android:gravity="end"
+                android:paddingHorizontal="@dimen/accountListLvItemPadding"
+                android:text="@string/accountList_listview_defaultMoneyText"
+                android:textColor="@color/accountListLvItem_titleTextColor"
+                android:textSize="@dimen/accountListLvItem_numberTextSize"
+                app:fontWeight="700" />
+        </LinearLayout>
+        <!--        account-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#DEB6AB"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:padding="@dimen/accountListLvItemTitlePadding">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/accountListLvItemStartEndPadding"
+                android:paddingHorizontal="@dimen/accountListLvItemPadding"
+                android:text="@string/accountList_listview_typeText"
+                android:textColor="@color/accountListLvItem_contentTextColor"
+                android:textSize="@dimen/accountListLvItem_memberTextSize" />
+
+            <TextView
+                android:id="@+id/accountListLv_type"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="content"
+                android:textColor="@color/accountListLvItem_contentTextColor"
+                android:textSize="@dimen/accountListLvItem_memberTextSize" />
+        </LinearLayout>
+        <!--        member-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#DEB6AB"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:padding="@dimen/accountListLvItemTitlePadding">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/accountListLvItemStartEndPadding"
+                android:paddingHorizontal="@dimen/accountListLvItemPadding"
+                android:text="@string/accountList_listview_wayText"
+                android:textColor="@color/accountListLvItem_contentTextColor"
+                android:textSize="@dimen/accountListLvItem_memberTextSize" />
+
+            <TextView
+                android:id="@+id/accountListLv_payway"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="content"
+                android:textColor="@color/accountListLvItem_contentTextColor"
+                android:textSize="@dimen/accountListLvItem_memberTextSize" />
+        </LinearLayout>
+        <!--        memo-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#DEB6AB"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:padding="@dimen/accountListLvItemTitlePadding">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/accountListLvItemStartEndPadding"
+                android:paddingHorizontal="@dimen/accountListLvItemPadding"
+                android:text="@string/accountList_listview_memberText"
+                android:textColor="@color/accountListLvItem_contentTextColor"
+                android:textSize="@dimen/accountListLvItem_memberTextSize" />
+
+            <TextView
+                android:id="@+id/accountListLv_member"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="content"
+                android:textColor="@color/accountListLvItem_contentTextColor"
+                android:textSize="@dimen/accountListLvItem_memberTextSize" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/accountListLvItem_contentTextBackgroundColor"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:padding="@dimen/accountListLvItemTitlePadding">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/accountListLvItemStartEndPadding"
+                android:paddingHorizontal="@dimen/accountListLvItemPadding"
+                android:text="@string/accountList_listview_descriptionText"
+                android:textColor="@color/accountListLvItem_contentTextColor"
+                android:textSize="@dimen/accountListLvItem_memberTextSize" />
+
+            <TextView
+                android:id="@+id/accountListLv_description"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="content"
+                android:textColor="@color/accountListLvItem_contentTextColor"
+                android:textSize="@dimen/accountListLvItem_memberTextSize" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

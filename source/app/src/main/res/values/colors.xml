@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--    default-->
+    <color name="purple_200">#FF4f386b</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="shrinePink50">#FFFEEAE6</color>
+    <color name="shrinePink100">#FFFEDBD0</color>
+    <color name="shrinePink300">#FFFBB8AC</color>
+    <color name="shrinePink400">#FFEAA4A4</color>
+    <color name="shrineBrown600">#FF7D4F52</color>
+    <color name="shrineBrown900">#FF442B2D</color>
+    <color name="shrineSurfaceWhite">#FFFFFBFA</color>
+    <color name="shrineBackgroundWhite">#FFFFFFFF</color>
+
+
+    <color name="PrimartTextColor">#FF000000</color>
+    <color name="SecondTextColor">#FF888888</color>
+    <color name="EditTextBackgroundColor">#FFEEEEEE</color>
+    <color name="MainPageBackgroundColor">#FFCAA2DE</color>
+
+    <color name="DatePickerColor">#FFCAA2DE</color>
+
+    <color name="moneyDecreaseTextColor">#FF930000</color>
+    <color name="moneyIncreaseTextColor">#FF00A600</color>
+
+    <color name="subpageBackgroundColor">#FFFFFFFF</color>
+    <color name="subpageAppBarTitleTextColor">#00005C</color>
+    <color name="subpageTitleTextColor">#FF222222</color>
+    <color name="subpageTextColor">#FF555555</color>
+    <color name="subpageOutlinedButtonColor">#FFAAAAAA</color>
+    <color name="subpageButtonColor">#FF5E005E</color>
+    <color name="subpageButtonTextColor">#FFFFFFFF</color>
+
+    <color name="alertDialogTitleTextColor">#FFFFFFFF</color>
+    <color name="alertDialogTitleBackgroundColor">#FF5E005E</color>
+    <color name="alertDialogBackgroundColor">#FFE9D6FF</color>
+
+    <color name="settings_aboutAPP_contactTextColor">#FF921AFF</color>
+
+    <color name="accountListAppBarTextColor">@color/purple_200</color>
+
+    <color name="accountListLvItem_titleTextBackgroundColor">@color/shrinePink100</color>
+    <color name="accountListLvItem_titleTextColor">@color/shrineBrown600</color>
+    <color name="accountListLvItem_contentTextBackgroundColor">@color/shrinePink300</color>
+    <color name="accountListLvItem_contentTextColor">@color/shrineBrown900</color>
+</resources>

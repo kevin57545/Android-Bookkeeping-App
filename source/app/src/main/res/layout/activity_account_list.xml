@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".AccountList">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/accountListAppBarHeight"
+        android:gravity="center"
+        android:paddingTop="@dimen/accountListAppBarPadding">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/homePage_accountListTitleText"
+            android:textColor="@color/accountListAppBarTextColor"
+            android:textSize="@dimen/accountListAppBarTextSize" />
+    </LinearLayout>
+
+    <!--    listview    -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/accountListAppBarHeight"
+        android:gravity="center"
+        android:paddingTop="@dimen/accountListAppBarPadding1">
+
+        <Button
+            android:id="@+id/accountList_expense"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="showExpense"
+            android:text="@string/addOne_expenseText"
+            app:strokeColor="@color/subpageOutlinedButtonColor" />
+
+        <Button
+            android:id="@+id/accountList_income"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="showIncome"
+            android:text="@string/addOne_incomeText"
+            app:strokeColor="@color/subpageOutlinedButtonColor" />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/accountList_ListView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:paddingHorizontal="@dimen/accountListListViewPadding">
+
+    </ListView>
+
+</LinearLayout>

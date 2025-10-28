@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/expenseType_food"
+        android:title="@string/expenseTypeText_food" />
+
+    <item
+        android:id="@+id/expenseType_transportation"
+        android:title="@string/expenseTypeText_transportation" />
+
+    <item
+        android:id="@+id/expenseType_entertainment"
+        android:title="@string/expenseTypeText_entertainment" />
+
+    <item
+        android:id="@+id/expenseType_shopping"
+        android:title="@string/expenseTypeText_shopping" />
+
+    <item
+        android:id="@+id/expenseType_garment"
+        android:title="@string/expenseTypeText_garment" />
+
+    <item
+        android:id="@+id/expenseType_bill"
+        android:title="@string/expenseTypeText_bill" />
+
+    <item
+        android:id="@+id/expenseType_health"
+        android:title="@string/expenseTypeText_health" />
+
+    <item
+        android:id="@+id/expenseType_sporting"
+        android:title="@string/expenseTypeText_sporting" />
+
+    <item
+        android:id="@+id/expenseType_education"
+        android:title="@string/expenseTypeText_education" />
+
+    <item
+        android:id="@+id/expenseType_office"
+        android:title="@string/expenseTypeText_office" />
+
+    <item
+        android:id="@+id/expenseType_other"
+        android:title="@string/expenseTypeText_other" />
+
+
+</menu>

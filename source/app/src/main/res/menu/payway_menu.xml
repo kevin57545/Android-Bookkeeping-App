@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/expense_money"
+        android:title="@string/paywayText_cash" />
+
+    <item
+        android:id="@+id/expense_bank"
+        android:title="@string/paywayText_bank" />
+
+    <item
+        android:id="@+id/expense_creditCard"
+        android:title="@string/paywayText_creditCard" />
+
+    <item
+        android:id="@+id/expense_debitCard"
+        android:title="@string/paywayText_debitCard" />
+
+    <item
+        android:id="@+id/expense_others"
+        android:title="@string/paywayText_other" />
+
+</menu>

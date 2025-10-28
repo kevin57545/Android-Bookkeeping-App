@@ -1,0 +1,219 @@
+<resources>
+    <string name="app_name">記帳小幫手</string>
+
+    <!--    default dialog page    -->
+    <string name="dialogTitleText">提示</string>
+    <string name="dialogOKText">確定</string>
+    <string name="dialogCancelText">取消</string>
+
+    <!--    login page    -->
+    <string name="login_welcomeTitleText">歡迎使用</string>
+    <string name="login_programNameText">記帳小幫手</string>
+    <string name="login_enterHintText">請輸入帳號密碼:</string>
+    <string name="login_accountText">帳號:</string>
+    <string name="login_accountHintText">請輸入您的帳號</string>
+    <string name="login_passwordText">密碼:</string>
+    <string name="login_passwordHintText">請輸入您的密碼</string>
+    <string name="login_showPasswordCheckboxText">顯示密碼</string>
+    <string name="login_loginBtnText">登入</string>
+    <string name="login_signupBtnText">註冊</string>
+    <string name="login_emptyToastText">帳號或密碼不能為空</string>
+    <string name="login_successToastText">登入成功</string>
+    <string name="login_errorToastText">帳密錯誤</string>
+    <string name="login_signupToastText">請先註冊</string>
+
+    <!--    signup page    -->
+    <string name="signup_TitleText">註冊新帳號</string>
+    <string name="signup_enterAccountHintText">請輸入新帳號</string>
+    <string name="signup_enterPasswordHintText">請輸入您的新密碼</string>
+    <string name="signup_reenterPasswordText">確認密碼:</string>
+    <string name="signup_enterPasswordCheckHintText">請再次輸入您的新密碼</string>
+    <string name="signup_confirmBtnText">確認註冊</string>
+    <string name="signup_accountToastText">請輸入帳號</string>
+    <string name="signup_passwordToastText">請輸入密碼</string>
+    <string name="signup_notMatchToastText">兩個密碼不相符，請重新輸入</string>
+    <string name="signup_successToastText">已完成註冊!</string>
+
+
+    <!--    home page    -->
+    <string name="homePage_addOneTitleText">新增一筆</string>
+    <string name="homePage_accountListTitleText">收支清單</string>
+    <string name="homePage_accountGoalTitleText">設定目標</string>
+    <string name="homePage_settingsTitleText">設定</string>
+    <string name="homePage_exitDialogText">確定要離開嗎?</string>
+    <string name="homePage_OKDialogText">確定</string>
+    <string name="homePage_cancelDialogText">取消</string>
+
+    <!--    Add One page    -->
+    <string name="addOne_submitText">新增一筆</string>
+    <string name="addOne_expenseText">支出</string>
+    <string name="addOne_incomeText">收入</string>
+    <string name="addOne_dateText">日期</string>
+    <string name="addOne_moneyText">金額</string>
+    <string name="addOne_paywayText">付款方式</string>
+    <string name="addOne_incomeWayText">收款方式</string>
+    <string name="addOne_typeText">類別</string>
+    <string name="addOne_memberText">成員</string>
+    <string name="addOne_descriptionText">描述</string>
+    <string name="addOne_defaultDateText">(日期)</string>
+    <string name="addOne_moneyToastText">請輸入金額</string>
+    <string name="addOne_successToastText">新增成功</string>
+    <string name="addOne_errorToastText">新增失敗</string>
+
+
+    <!--    Account List Page    -->
+    <string name="accountList_titleText">收支清單</string>
+    <string name="account_list_outExpenseGoalToastText">已達到預算上限!!</string>
+    <string name="account_list_nearExpenseGoalToastText">您離預算上限還有</string>
+    <string name="account_list_outIncomeGoalToastText">恭喜!!您達到了設下的收入金額</string>
+    <string name="account_list_nearIncomeGoalToastText">您離收入目標還有</string>
+    <string name="account_list_OKDialogText">確認</string>
+    <string name="account_list_deleteDialogText">刪除</string>
+    <string name="account_list_typeText">類型</string>
+    <string name="account_list_wayText">方式</string>
+    <string name="account_list_detailDialogText">該筆資料資訊如下:</string>
+    <string name="account_list_titleDialogText">資訊</string>
+
+
+    <!--    Account Goal Page    -->
+    <string name="account_goal_titleText">設定目標</string>
+    <string name="account_goal_expenseHintText">請輸入您的預算限制:</string>
+    <string name="account_goal_incomeHintText">請輸入您想達到的收入金額:</string>
+    <string name="account_goal_submitBtnText">儲存</string>
+    <string name="account_goal_clearBtnText">重設</string>
+    <string name="account_goal_saveHintText">儲存成功!</string>
+    <string name="account_goal_clearToastText">清除成功</string>
+    <string name="account_goal_enterToastText">請輸入預算及目標</string>
+    <string name="account_goal_expenseTotalHintText">您目前的總支出為:</string>
+    <string name="account_goal_dollarHintText">元</string>
+    <string name="account_goal_outExpenseHintText">您已超出預算</string>
+    <string name="account_goal_inExpenseHintText">您離預算還有</string>
+    <string name="account_goal_incomeTotalHintText">您目前的總收入為:</string>
+    <string name="account_goal_equalIncomeHintText">恭喜!您已達到收入目標</string>
+    <string name="account_goal_outIncomeHintText">恭喜!您已達到收入目標超過</string>
+    <string name="account_goal_inIncomeHintText">加油!您離收入目標還有</string>
+
+    <!--    Settings Page    -->
+    <string name="settings_basic">基本設定</string>
+    <string name="settings_changePasswordText">變更密碼</string>
+    <string name="settings_databaseManageText">資料庫管理</string>
+    <string name="settings_databaseInfoText">資料庫資訊</string>
+    <string name="settings_databaseClearText">清除資料庫</string>
+    <string name="settings_appInfoText">APP資訊</string>
+    <string name="settings_menuAboutApp">關於本App</string>
+    <string name="settings_sendInfoText">傳送相關資料</string>
+
+    <!--    settings resetPassword    -->
+    <string name="settings_resetPassword_titleText">更改您的密碼</string>
+    <string name="settings_resetPassword_enterOldPasswordHintText">請輸入原密碼:</string>
+    <string name="settings_resetPassword_enterNewPasswordHintText">請輸入新密碼:</string>
+    <string name="settings_resetPassword_reenterNewPasswordHintText">請再次輸入新密碼:</string>
+    <string name="settings_resetPassword_confirmBtnText">確認修改</string>
+    <string name="settings_resetPassword_oldToastText">請輸入原密碼</string>
+    <string name="settings_resetPassword_newToastText">請輸入新密碼</string>
+    <string name="settings_resetPassword_newCheckToastText">請再次輸入新密碼</string>
+    <string name="settings_resetPassword_errorOldToastText">原密碼錯誤</string>
+    <string name="settings_resetPassword_errorNewToastText">兩個密碼不相符，請重新輸入</string>
+    <string name="settings_resetPassword_successToastText">密碼修改成功!</string>
+
+    <!--    settings dataBaseInfo    -->
+    <string name="settings_databaseInfo_titleText">-----以下為資料庫資訊-----</string>
+    <string name="settings_databaseInfo_pathText">資料庫檔案路徑:</string>
+    <string name="settings_databaseInfo_sizeText">資料庫分頁大小:</string>
+    <string name="settings_databaseInfo_boundText">資料量大小上限:</string>
+    <string name="settings_databaseInfo_clearDatabaseBtnText">清除資料庫</string>
+
+    <!--    settings deleteDatabase    -->
+    <string name="settings_deleteDatabase_titleText">清除資料庫</string>
+    <string name="settings_deleteDatabase_enterPasswordHintText">請輸入您的密碼:</string>
+    <string name="settings_deleteDatabase_clearBtnText">清除</string>
+    <string name="settings_deleteDatabase_errorToastText">資料庫未刪除:密碼錯誤</string>
+    <string name="settings_deleteDatabase_hintDialogText">確定要刪除資料庫嗎</string>
+    <string name="settings_deleteDatabase_OKDialogText">確定</string>
+    <string name="settings_deleteDatabase_cancelDialogText">取消</string>
+
+    <!--    settings aboutAPP    -->
+    <string name="settings_aboutAPP_titleText">-----關於本APP-----</string>
+    <string name="settings_aboutAPP_AppNameTitleText">程式名稱:</string>
+    <string name="settings_aboutAPP_AppNameText">記帳小幫手</string>
+    <string name="settings_aboutAPP_launchDateTitleText">年分:</string>
+    <string name="settings_aboutAPP_launchDateText">2023.01</string>
+    <string name="settings_aboutAPP_AuthorTitleText">-----關於作者-----</string>
+    <string name="settings_aboutAPP_AuthorNameTitleText">姓名:</string>
+    <string name="settings_aboutAPP_AuthorNameText">江英碩</string>
+    <string name="settings_aboutAPP_AuthorClassTitleText">系級:</string>
+    <string name="settings_aboutAPP_AuthorClassText">資三甲</string>
+    <string name="settings_aboutAPP_ContactTitleText">-----聯絡資訊-----</string>
+    <string name="settings_aboutAPP_Contact_phoneTitleText">電話:</string>
+    <string name="settings_aboutAPP_Contact_phoneText">0123456789</string>
+    <string name="settings_aboutAPP_Contact_emailTitleText">信箱:</string>
+    <string name="settings_aboutAPP_Contact_emailText">s110916013@stu.ntue.edu.tw</string>
+    <string name="settings_aboutAPP_Contact_phoneToastErrorText">無內建通話工具</string>
+    <string name="settings_aboutAPP_Contact_emailToastErrorText">無內建郵件工具</string>
+
+    <!--    settings sendInfo    -->
+    <string name="settings_sendInfo_titleText">傳送相關資料</string>
+    <string name="settings_sendInfo_commandText">請寫下您的建議或問題</string>
+    <string name="settings_sendInfo_updatePhotoText">上傳圖片</string>
+    <string name="settings_sendInfo_submitText">提交</string>
+    <string name="settings_sendInfo_previewPhotoText">圖片預覽:</string>
+    <string name="setting_menuRecommend_typeText">類型</string>
+    <string name="setting_sendInfo_sendToastText">感謝您的建議</string>
+    <string name="setting_sendInfo_sendText">傳送資料給開發人</string>
+
+    <!--    Account Listview    -->
+    <string name="accountList_listview_defaultTypeText">(分類)</string>
+    <string name="accountList_listview_defaultDateText">YYYY/MM/DD</string>
+    <string name="accountList_listview_defaultMoneyText">(金額)</string>
+    <string name="accountList_listview_typeText">類型:</string>
+    <string name="accountList_listview_wayText">方式:</string>
+    <string name="accountList_listview_memberText">成員:</string>
+    <string name="accountList_listview_descriptionText">描述:</string>
+
+    <!--    Expense Type menu    -->
+    <string name="expenseTypeText_food">飲食</string>
+    <string name="expenseTypeText_transportation">交通</string>
+    <string name="expenseTypeText_entertainment">娛樂</string>
+    <string name="expenseTypeText_shopping">購物</string>
+    <string name="expenseTypeText_garment">服飾</string>
+    <string name="expenseTypeText_bill">帳單</string>
+    <string name="expenseTypeText_health">健康</string>
+    <string name="expenseTypeText_sporting">運動</string>
+    <string name="expenseTypeText_education">教育</string>
+    <string name="expenseTypeText_office">辦公</string>
+    <string name="expenseTypeText_other">其它</string>
+
+    <!--    Income Type menu    -->
+    <string name="incomeTypeText_salary">薪水</string>
+    <string name="incomeTypeText_pocketMoney">零用錢</string>
+    <string name="incomeTypeText_bonus">獎金</string>
+    <string name="incomeTypeText_donation">捐贈</string>
+    <string name="incomeTypeText_rent">出租</string>
+    <string name="incomeTypeText_refund">退款</string>
+    <string name="incomeTypeText_dividend">股息</string>
+    <string name="incomeTypeText_other">其它</string>
+
+    <!--    member menu    -->
+    <string name="memberText_myself">自己</string>
+    <string name="memberText_family">家人</string>
+    <string name="memberText_relative">親戚</string>
+    <string name="memberText_children">小孩</string>
+    <string name="memberText_parents">父母</string>
+    <string name="memberText_husband">丈夫</string>
+    <string name="memberText_wife">妻子</string>
+    <string name="memberText_company">公司</string>
+    <string name="memberText_school">學校</string>
+    <string name="memberText_publicAgency">公家機關</string>
+    <string name="memberText_other">其他</string>
+
+
+    <!--    payway menu    -->
+    <string name="paywayText_cash">現金</string>
+    <string name="paywayText_bank">銀行</string>
+    <string name="paywayText_creditCard">信用卡</string>
+    <string name="paywayText_debitCard">金融卡</string>
+    <string name="paywayText_other">其他</string>
+    <string name="settingRecommend_type_otherText">其他</string>
+
+
+</resources>

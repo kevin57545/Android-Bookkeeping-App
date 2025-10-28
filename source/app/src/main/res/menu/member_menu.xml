@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/member_myself"
+        android:title="@string/memberText_myself" />
+
+    <item
+        android:id="@+id/member_family"
+        android:title="@string/memberText_family" />
+
+    <item
+        android:id="@+id/member_relative"
+        android:title="@string/memberText_relative" />
+
+    <item
+        android:id="@+id/member_children"
+        android:title="@string/memberText_children" />
+
+    <item
+        android:id="@+id/member_parents"
+        android:title="@string/memberText_parents" />
+
+    <item
+        android:id="@+id/member_husband"
+        android:title="@string/memberText_husband" />
+
+    <item
+        android:id="@+id/member_wife"
+        android:title="@string/memberText_wife" />
+
+    <item
+        android:id="@+id/member_company"
+        android:title="@string/memberText_company" />
+
+    <item
+        android:id="@+id/member_school"
+        android:title="@string/memberText_school" />
+
+    <item
+        android:id="@+id/member_publicAgency"
+        android:title="@string/memberText_publicAgency" />
+
+    <item
+        android:id="@+id/member_other"
+        android:title="@string/memberText_other" />
+
+
+</menu>

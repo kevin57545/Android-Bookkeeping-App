@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <dimen name="alertdialog_titleHeight">60dp</dimen>
+    <dimen name="alertdialog_dialogMargin">0dp</dimen>
+    <dimen name="alertdialog_actionButtonMargin">10dp</dimen>
+    <dimen name="alertdialog_editTextMarginTop">10dp</dimen>
+    <dimen name="alertdialog_editTextMarginHorizontal">20dp</dimen>
+    <dimen name="alertdialog_width">300dp</dimen>
+
+    <dimen name="mainpageFragmentPadding">40dp</dimen>
+
+    <dimen name="page_divideLineSize">2dp</dimen>
+    <dimen name="page_dividePadding">20dp</dimen>
+    <dimen name="page_divideLineSmallSize">1.5dp</dimen>
+    <!--    Button 新增圖片-->
+    <dimen name="addImageButtonViewSize">70dp</dimen>
+    <!--    RadioButton 選項間距-->
+    <dimen name="subpageRadioButtonPadding">16sp</dimen>
+    <!--    頁面文字與背景-->
+    <dimen name="subpageAppBarTitleTextSize">24sp</dimen>
+    <dimen name="subpageAppBarTitlePaddingTop">20dp</dimen>
+    <dimen name="subpageAppBarTitlePaddingBottom">10dp</dimen>
+    <dimen name="subpagePaddingHorizontal">20dp</dimen>
+    <dimen name="subpageTitleTextSize">16sp</dimen>
+    <dimen name="subpageTextSize">14sp</dimen>
+    <dimen name="subpageTextPaddingVertical">20dp</dimen>
+    <dimen name="subpageButtonTextSize">14sp</dimen>
+
+
+    <!--    home page-->
+
+    <!--    add 新增記帳紀錄-->
+    <dimen name="addOneTextPaddingVertical">10dp</dimen>
+    <!--    bookkeeping 記帳履歷-->
+    <dimen name="accountListAppBarPadding">20dp</dimen>
+    <dimen name="accountListAppBarPadding1">5dp</dimen>
+    <dimen name="accountListAppBarHeight">60dp</dimen>
+    <dimen name="accountListAppBarTextSize">28sp</dimen>
+    <dimen name="accountListListViewPadding">20dp</dimen>
+
+    <!--    bookkeeping Item 記帳履歷-->
+    <dimen name="accountListLvItemPadding">2dp</dimen>
+    <dimen name="accountListLvItemTitlePadding">5dp</dimen>
+    <dimen name="accountListLvItemTitleWidthZero">0dp</dimen>
+    <dimen name="accountListLvItemStartEndPadding">5dp</dimen>
+    <dimen name="accountListLvItem_numberTextSize">20sp</dimen>
+    <dimen name="accountListLvItem_dateTextSize">16sp</dimen>
+    <dimen name="accountListLvItem_classTextSize">16sp</dimen>
+    <dimen name="accountListLvItem_memberTextSize">16sp</dimen>
+    <dimen name="accountListLvItem_memoTextSize">16sp</dimen>
+
+
+
+    <!--    account page Dimens-->
+    <!--    account主頁-->
+    <dimen name="account_netAssetsTextSize">30sp</dimen>
+    <dimen name="account_netAssetsTextTextSize">16sp</dimen>
+    <dimen name="account_assetsTextSize">24sp</dimen>
+    <dimen name="account_assetsTextTextSize">14sp</dimen>
+    <dimen name="account_listItemIconSize">40dp</dimen>
+    <dimen name="account_listItemTextSize">20dp</dimen>
+    <dimen name="account_listItemPadding">10dp</dimen>
+
+
+    <!--    setting page Dimens-->
+    <dimen name="setting_itemTextSize">22sp</dimen>
+    <dimen name="setting_subItemTextSize">20sp</dimen>
+    <dimen name="setting_subItemPadding">0dp</dimen>
+
+
+    <dimen name="op_startAppButtonTextSize">24sp</dimen>
+    <dimen name="op_appTitleTextSize">30sp</dimen>
+    <dimen name="op_appTitlePadding">50dp</dimen>
+
+
+    <dimen name="login_submitButtonTextSize">20sp</dimen>
+    <dimen name="login_submitButtonPadding_top">10dp</dimen>
+
+</resources>

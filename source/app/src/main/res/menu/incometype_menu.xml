@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/incomeType_salary"
+        android:title="@string/incomeTypeText_salary" />
+
+    <item
+        android:id="@+id/incomeType_pocketMoney"
+        android:title="@string/incomeTypeText_pocketMoney" />
+
+    <item
+        android:id="@+id/incomeType_bonus"
+        android:title="@string/incomeTypeText_bonus" />
+
+    <item
+        android:id="@+id/incomeType_donation"
+        android:title="@string/incomeTypeText_donation" />
+
+    <item
+        android:id="@+id/incomeType_rent"
+        android:title="@string/incomeTypeText_rent" />
+
+    <item
+        android:id="@+id/incomeType_refund"
+        android:title="@string/incomeTypeText_refund" />
+
+    <item
+        android:id="@+id/expenseType_dividend"
+        android:title="@string/incomeTypeText_dividend" />
+
+    <item
+        android:id="@+id/expenseType_other"
+        android:title="@string/incomeTypeText_other" />
+
+</menu>
